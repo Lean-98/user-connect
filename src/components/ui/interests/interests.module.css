@@ -1,0 +1,42 @@
+.interests {
+    background: var(--taupe);
+    padding: 1rem;
+    padding-bottom: 3.5rem;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details {
+    display: grid;
+    justify-content: center;
+    gap: 0.7rem;
+}
+
+.details h4 {
+    font-size: clamp(0.8rem, 5vw, 1.5rem);
+    font-weight: 300;
+    color: var(--cream);
+
+}
+
+.detailsIcon {
+    width: clamp(20px, 5vw, 60px);
+    color: var(--brown);
+}
+
+
+
+@media (max-width: 600px) {
+    .details {
+        gap: 1rem;
+    }
+
+    .detailsIcon {
+        margin-right: 5px;
+    }
+
+}

@@ -1,0 +1,24 @@
+.about {
+    background-color: var(--taupe);
+    padding: 50px;
+}
+
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.paragraph {
+    font-size: clamp(0.8rem, 5vw, 1.5rem);
+    font-weight: 300;
+    text-align: center;
+    color: var(--cream);
+}
+
+
+@media (max-width: 600px) {
+    .about {
+        padding: 20px;
+    }
+}
