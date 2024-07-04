@@ -12,8 +12,6 @@
   --orangeRed: #FF57337A;
   --darkGray: #A9A9A9;
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
 
   --shadow-color: 39deg 36% 56%;
   --shadow-elevation-medium:
@@ -22,20 +20,6 @@
     -6.5px 6.9px 7.7px -3.1px hsl(var(--shadow-color) / 0.36),
     -18.9px 20px 22.3px -4.6px hsl(var(--shadow-color) / 0.21);
 }
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-
-    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
-    --secondary-glow: linear-gradient(to bottom right,
-        rgba(1, 65, 255, 0),
-        rgba(1, 65, 255, 0),
-        rgba(1, 65, 255, 0.3));
-  }
-} */
 
 * {
   box-sizing: border-box;
@@ -49,20 +33,7 @@ body {
   overflow-x: hidden;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
-}
-
 a {
   color: inherit;
   text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
 }

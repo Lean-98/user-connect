@@ -3,6 +3,7 @@
     grid-template-columns: 1fr 1fr;
     background-color: #696969;
     padding: 30px;
+    animation: fadeIn 0.9s ease-out;
 }
 
 .content {
@@ -49,5 +50,17 @@
         width: 150px;
         height: 150px;
         margin: 1rem 0 1rem 0;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
