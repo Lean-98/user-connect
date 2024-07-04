@@ -104,4 +104,8 @@
     .contact {
         padding: 20px;
     }
+
+    .errorText {
+        font-size: 1rem;
+    }
 }

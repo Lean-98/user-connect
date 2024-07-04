@@ -14,6 +14,13 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+
+  --shadow-color: 39deg 36% 56%;
+  --shadow-elevation-medium:
+    -0.9px 1px 1.1px hsl(var(--shadow-color) / 0.66),
+    -1.8px 2px 2.2px -1.5px hsl(var(--shadow-color) / 0.51),
+    -6.5px 6.9px 7.7px -3.1px hsl(var(--shadow-color) / 0.36),
+    -18.9px 20px 22.3px -4.6px hsl(var(--shadow-color) / 0.21);
 }
 
 /* @media (prefers-color-scheme: dark) {

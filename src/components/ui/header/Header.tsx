@@ -6,9 +6,9 @@ export const Header = () => {
     <header className={styles.header}>
       <div className={styles.content}>
         <h1 className={styles.fullName}>Alexis Bazan</h1>
-        <p className={styles.paragraph}>
-          Do ex id ullamco adipisicing ex amet ipsum dolor magna Lorem proident.
-        </p>
+        {/* <p className={styles.paragraph}>
+          Do ex id ullamco adipisicing ex amet.
+        </p> */}
       </div>
       <Image
         className={styles.profileImage}
