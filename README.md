@@ -1,4 +1,14 @@
-# UserConnect
+## Descripción del Proyecto
+
+Este proyecto es una página de perfil de usuario creada como parte de una prueba técnica. Incluye las siguientes secciones:
+
+- **Cabecera**: Nombre del usuario e imagen de perfil.
+- **Sobre mí**: Una breve descripción del usuario.
+- **Intereses**: Una lista de intereses del usuario.
+- **Formulario de Contacto**: Campos para nombre, email y mensaje con validación.
+
+> [!NOTE]
+> El contenido de las secciones "Sobre mí" e "Intereses" utiliza texto de relleno ("Lorem ipsum") para mantener la neutralidad y enfocarse en la funcionalidad y el diseño de la página.
 
 ## Tech Stack
 
