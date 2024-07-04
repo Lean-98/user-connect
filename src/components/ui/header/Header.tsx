@@ -12,9 +12,7 @@ export const Header = () => {
       </div>
       <Image
         className={styles.profileImage}
-        src={
-          '	https://res.cloudinary.com/ddiulrst8/image/upload/v1709133637/portfolio/vf8prwkedl412bzjcoa6.webp'
-        }
+        src={'https://avatars.githubusercontent.com/u/104113851?v=4'}
         alt="Alexis Bazan"
         width={300}
         height={300}
