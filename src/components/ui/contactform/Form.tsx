@@ -35,7 +35,11 @@ export const Form = () => {
 
   return (
     <>
-      <form onSubmit={handleSubmit(onSubmit)} className={styles.form}>
+      <form
+        onSubmit={handleSubmit(onSubmit)}
+        className={styles.form}
+        role="form"
+      >
         <input
           className={`${styles.input} ${errors.name ? styles.error : ''}`}
           type="text"

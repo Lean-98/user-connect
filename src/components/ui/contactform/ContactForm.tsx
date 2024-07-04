@@ -5,7 +5,7 @@ import { Form } from './Form';
 export const ContactForm = () => {
   return (
     <>
-      <section className={styles.contact} id="contact">
+      <section className={styles.contact} role="contactForm">
         <Title title="Contacto" />
         <Form />
       </section>

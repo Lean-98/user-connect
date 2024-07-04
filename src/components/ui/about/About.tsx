@@ -3,7 +3,7 @@ import { Title } from '../title/Title';
 
 export const About = () => {
   return (
-    <div className={styles.about}>
+    <div className={styles.about} role="about">
       <Title title="Sobre mí" />
       <div className={styles.content}>
         <p className={styles.paragraph}>

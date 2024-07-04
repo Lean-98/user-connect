@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const Footer = () => {
   return (
-    <div className={styles.footerContainer}>
+    <div className={styles.footerContainer} role="footer">
       <Link href="/" className={styles.link}>
         <span className={styles.text}>© {new Date().getFullYear()}</span>
       </Link>
